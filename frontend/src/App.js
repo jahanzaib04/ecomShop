@@ -154,7 +154,7 @@ function App() {
 
         {!loading && (!isAuthenticated || user.role !== "admin") && <Footer />}
       </div>
-      <Route path="/*" component={Error} />
+      <Route component={Error} />
     </Router>
   );
 }
