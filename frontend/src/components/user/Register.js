@@ -16,7 +16,7 @@ const Register = ({ history }) => {
 
   const [avatar, setAvatar] = useState("");
   const [avatarPreview, setAvatarPreview] = useState(
-    "images/default_avatar.jpg"
+    "https://res.cloudinary.com/jahanzaib/image/upload/v1637972045/WebImg/default_avatar_a3fjgu.jpg"
   );
 
   const alert = useAlert();

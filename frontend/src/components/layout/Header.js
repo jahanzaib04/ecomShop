@@ -28,7 +28,10 @@ const Header = () => {
         <div className="col-12 col-md-3">
           <div className="navbar-brand">
             <Link to="/">
-              <img src="/images/ecomShop_logo.png" alt="ECOM" />
+              <img
+                src="https://res.cloudinary.com/jahanzaib/image/upload/v1637972045/WebImg/ecomShop_logo_hwc9rx.png"
+                alt="ECOM"
+              />
             </Link>
           </div>
         </div>
