@@ -11,7 +11,7 @@ const OrderSuccess = () => {
         <div className="col-6 mt-5 text-center">
           <img
             className="my-5 img-fluid d-block mx-auto"
-            src="https://res.cloudinary.com/jahanzaib/image/upload/v1637972045/WebImg/order_success_vmygb0.png"
+            src="/Images/order_success.png"
             alt="Order Success"
             width="200"
             height="200"
