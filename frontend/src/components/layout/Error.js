@@ -2,9 +2,9 @@ import React from "react";
 
 const Error = () => {
   return (
-    <div className="error">
-      <h1 className="bg-font">404</h1>
-      <h3 className="md-font">Not Found</h3>
+    <div class="error">
+      <div class="hd1">404</div>
+      <div class="hd2">Not Found</div>
       <p>The resource requested could not be found on this server!</p>
     </div>
   );

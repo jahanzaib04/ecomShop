@@ -151,7 +151,7 @@ function App() {
           component={ProductReviews}
           exact
         />
-        <Route path="/*" component={Error} />
+        <Route path="/" component={Error} />
         {!loading && (!isAuthenticated || user.role !== "admin") && <Footer />}
       </div>
     </Router>
