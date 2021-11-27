@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer";
+import Error from "./components/layout/Error";
 
 import Home from "./components/Home";
 import ProductDetails from "./components/product/ProductDetails";
@@ -150,6 +151,7 @@ function App() {
           component={ProductReviews}
           exact
         />
+        <Route path="/*" component={Error} />
         {!loading && (!isAuthenticated || user.role !== "admin") && <Footer />}
       </div>
     </Router>

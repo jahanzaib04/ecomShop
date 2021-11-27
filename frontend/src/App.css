@@ -52,6 +52,20 @@ nav {
   font-family: calibri;
 }
 
+.error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #2e2e2e;
+}
+
+.error > h1 {
+  font-size: larger;
+}
+.error > h3 {
+  font-size: medium;
+}
 #cart {
   font-size: 1rem;
   color: white;
